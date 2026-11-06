@@ -6,23 +6,27 @@
   <title>大衆酒場 鳥の素揚げ ほしの 本店｜電話</title>
   <style>
     *{box-sizing:border-box}
-    body{margin:0;min-height:100vh;min-height:100svh;display:grid;place-items:center;padding:24px;background:#111;color:#fff;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Hiragino Sans","Yu Gothic",sans-serif}
-    main{width:min(520px,100%);min-width:0;text-align:center;background:#1c1c1e;border-radius:28px;padding:36px 24px}
-    h1{margin:0 0 10px;font-size:clamp(24px,6vw,32px);line-height:1.5;overflow-wrap:anywhere}
-    .kind{display:block;font-size:16px;font-weight:500}
-    .branch{display:block;font-size:22px}
-    p{margin:0 0 28px;color:#b7b7bd;line-height:1.6}
-    .call{display:block;width:100%;padding:20px 12px;border-radius:18px;background:#2ecc71;color:#07140b;font-size:22px;font-weight:800;text-decoration:none}
-    .call:focus-visible{outline:3px solid #fff;outline-offset:5px}
-    .phone{margin-top:16px;color:#d1d1d6;font-size:17px;letter-spacing:.04em}
+    body{margin:0;min-height:100vh;min-height:100svh;display:grid;place-items:center;padding:24px;background:linear-gradient(rgba(0,0,0,.46),rgba(0,0,0,.46)),radial-gradient(ellipse at 20% 10%,#9399a2 0,transparent 65%),linear-gradient(145deg,#626873,#90969e);color:#000;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Hiragino Sans","Yu Gothic",sans-serif;-webkit-text-size-adjust:100%}
+    main{width:min(280px,100%);min-width:0;text-align:center;overflow:hidden;background:rgba(248,248,250,.88);-webkit-backdrop-filter:blur(28px) saturate(150%);backdrop-filter:blur(28px) saturate(150%);border-radius:14px;box-shadow:0 16px 56px rgba(0,0,0,.2)}
+    .content{padding:22px 16px 20px}
+    h1{margin:0 0 10px;font-size:20px;font-weight:600;line-height:1.4;overflow-wrap:anywhere}
+    .kind{display:block;font-size:13px;font-weight:400;line-height:1.5;margin-bottom:4px}
+    .branch{display:block;font-size:17px;margin-top:2px}
+    p{margin:0;color:#303034;font-size:13px;line-height:1.5}
+    .phone{margin-top:12px;color:#636366;font-size:15px;line-height:1.4;font-variant-numeric:tabular-nums;letter-spacing:.02em}
+    .call{display:flex;align-items:center;justify-content:center;width:100%;min-height:48px;padding:12px 16px;border-top:1px solid rgba(60,60,67,.24);color:#007aff;background:transparent;font-size:17px;font-weight:600;line-height:1.4;text-decoration:none;-webkit-tap-highlight-color:rgba(0,122,255,.12)}
+    .call:active{background:rgba(0,0,0,.06)}
+    .call:focus-visible{outline:3px solid #007aff;outline-offset:-4px}
   </style>
 </head>
 <body>
   <main>
+    <div class="content">
     <h1><span class="kind">大衆酒場 鳥の素揚げ</span>ほしの<span class="branch">本店</span></h1>
     <p>ご予約・お問い合わせは<br>こちらからお願いします</p>
-    <a class="call" href="tel:0363805944">電話をかける</a>
     <div class="phone">03-6380-5944</div>
+    </div>
+    <a class="call" href="tel:0363805944">電話をかける</a>
   </main>
 </body>
 </html>
